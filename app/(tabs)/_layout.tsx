@@ -27,7 +27,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="explore"
         options={{
-          title: 'Oe',
+          title: 'One',
           tabBarIcon: ({ color }) => <AntDesign size={28} name="plus-circle" color={color} />,
         }}
       />
