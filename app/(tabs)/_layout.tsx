@@ -28,7 +28,7 @@ export default function TabLayout() {
         name="explore"
         options={{
           title: 'One',
-          tabBarIcon: ({ color }) => <AntDesign size={28} name="plus-circle" color={color} />,
+          tabBarIcon: ({ color }) => <AntDesign size={50} name="plus-circle" color={color} />,
         }}
       />
     </Tabs>
