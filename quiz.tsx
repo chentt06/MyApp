@@ -29,6 +29,8 @@ export default function InterestsScreen() {
        <Text style={{ textAlign: "center", fontStyle: "italic", fontSize: 30, fontWeight: "bold", marginBottom: 30}}>
         Pick Your Interests
         </Text>
+
+      
       {/* Question 1*/}
       <Text style={{ fontSize: 20, fontWeight: "bold", marginBottom: 10 }}>
         What is your major?
@@ -92,6 +94,7 @@ export default function InterestsScreen() {
         ))}
       </View>
 
+      
       {/*Question 4*/}
       <Text style={{ fontSize: 20, fontWeight: "bold", marginBottom: 10 }}>
         What is your favorite movie genre?
@@ -113,6 +116,7 @@ export default function InterestsScreen() {
         ))}
       </View>
 
+      
       {/*Question 5*/}
       <Text style={{ fontSize: 20, fontWeight: "bold", marginBottom: 10 }}>
         What is your favorite music genre?
