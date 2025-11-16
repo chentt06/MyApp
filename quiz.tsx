@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { View, Text, TextInput, TouchableOpacity, ScrollView } from "react-native";
+import { useColorScheme } from '@/hooks/use-color-scheme';
 
 export default function InterestsScreen() {
+  const colorScheme = useColorScheme();
   const [major, setMajor] = useState(null);
   const [hobbies, setHobbies] = useState([]);
   const [topics, setTopics] = useState([]);
